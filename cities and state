@@ -1,0 +1,130 @@
+<?php
+
+$states['MA'] = array(
+			
+				'TTM' => 'Tanger-Tétouan-Al Hoceïma',
+				'CTM' => 'Casablanca-Settat',
+				'ORM' => 'l\'Oriental',
+				'MSM' => 'Marrakech-Safi',
+				'FMM' => 'Fès-Meknès',
+				'DTM' => 'Drâa-Tafilalet',
+				'RSM' => 'Rabat-Salé-Kénitra',
+				'SMM' => 'Souss-Massa',
+				'SNM' => 'Béni Mellal-Khénifra',
+				'LSM' => 'Laâyoune-Sakia El Hamra',
+				'DOM' => 'Dakhla-Oued Ed Dahab',
+			
+			);
+
+
+/**
+ * Morocco cities
+ */
+global $cities;
+
+$cities['MA'] = array(
+	'TTM' => array(
+		'Tanger',
+		'Tétouan',
+		'Ksar El Kebir',
+		'Larache',
+		'Fnidq',
+		'Martil',
+		'M’diq',
+		'Asilah',
+		'Gueznaia',
+		'ksar sghir',
+		'Souk Khemis du Sahel'
+	),
+	'CTM' => array(
+		'Casablanca',
+		'Mohammedia',
+		'El Jadida',
+		'Settat',
+		'Barrechid',
+		'Bouskoura',
+		'Ain Harrouda',
+		'Benslimane',
+		'El Gara',
+		'Azemmour',
+		'Bouznika',
+		'Mediouna',
+		'Tnine Chtouka',
+		'Bir Jdid',
+		'Had Soualem',
+		'Dar Bouazza',
+		'Lissaafa'
+	),
+	'ORM' => array(
+		'Berkane',
+		'Driouch',
+		'Figuig',
+		'Guercif',
+		'Jerada',
+		'Nador',
+		'Oujda-Angad',
+		'Taourirt'
+	),
+	'MSM' => array(
+		'Al Haouz',
+		'Chichaoua',
+		'El Kelâa des Sraghna',
+		'Essaouira',
+		'Marrakech',
+		'Rehamna',
+		'Safi',
+		'Youssoufia'
+	),
+	'FMM' => array(
+		'Boulemane',
+		'El Hajeb',
+		'Fès',
+		'Ifrane',
+		'Meknès',
+		'Moulay Yacoub',
+		'Sefrou',
+		'Taounate',
+		'Taza'
+	),
+	'DTM' => array(
+		'Errachidia',
+		'Midelt',
+		'Ouarzazate',
+		'Tinghir',
+		'Zagora'
+	),
+	'RSM' => array(
+		'Khémisset',
+		'Kénitra',
+		'Nouaceur',
+		'Rabat',
+		'Salé',
+		'Sidi Kacem',
+		'Sidi Slimane',
+		'Skhirate-Témara'
+	),
+	'SMM' => array(
+		'Agadir-Ida-Ou-Tanane',
+		'Inezgane-Ait Melloul',
+		'Taroudannt',
+		'Tata',
+		'Tiznit'
+	),
+	'SNM' => array(
+		'Azilal',
+		'Béni Mellal',
+		'Fquih Ben Salah',
+		'Khouribga',
+		'Khénifra'
+	),
+	'LSM' => array(
+		'Boujdour',
+		'Es-Semara',
+		'Laâyoune',
+		'Tarfaya'
+	),
+	'DOM' => array(
+		'Aousserd',
+		'Oued Ed-Dahab'
+	),
+);
